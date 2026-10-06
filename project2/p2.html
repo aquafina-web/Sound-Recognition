@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="p2.css">
+</head>
+<body>
+    <center>
+        <div class="head">
+            <h2 style="font-family: 'Brush Script MT', 'Lucida Handwriting', 'cursive'; font-size: 50px;">Sound Controlled Aliens</h2>
+            <p style="font-size: 20px;">Note: Play different sounds like bell, bird, clap to make the aliens dance</p>
+        
+        </div>
+        <br><br>
+        <button onclick="classification()">START</button>
+        <h3 id="object">I can hear: </h3>
+        <h3 id="acc">Accuracy: </h3>
+
+        <img id="img1" src="bg1.jpg" width="300" height="300">
+        <img id="img2" src="bell1.jpg" width="300" height="300">
+        <img id="img3" src="bird1.jpg" width="300" height="300">
+        <img id="img4" src="clap1.jpg" width="300" height="300">
+        
+        <div class="footer">
+            <p>Developed By - Afina Ayaat</p>
+        </div>
+    </center>
+    <script src="p2.js"></script>
+</body>
+</html>
